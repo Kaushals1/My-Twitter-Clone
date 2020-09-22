@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+body {
+  --twitter-color: #2ba8f7;
+  --twitter-hover: #202e3a;
+  --twitter-background: rgb(21, 32, 43);
+  --twitter-border: rgb(51, 66, 78);
+  background-color: var(--twitter-background);
+  overscroll-behavior: contain;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

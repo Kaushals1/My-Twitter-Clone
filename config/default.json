@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://kaushal01:kaushalDB@cluster0.bx4td.mongodb.net/twitterDb?retryWrites=true&w=majority",
+    "jwtSecret":"mysecrettoken"
+}

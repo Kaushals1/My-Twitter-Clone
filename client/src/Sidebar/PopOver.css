@@ -1,0 +1,27 @@
+.MuiPopover-paper {
+  background-color: var(--twitter-background) !important;
+  color: white !important;
+  box-shadow: rgba(136, 153, 166, 0.2) 0px 0px 15px,
+    rgba(136, 153, 166, 0.15) 0px 0px 3px 1px !important;
+}
+
+.popup__head {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid var(--twitter-border);
+}
+
+.popup__logout {
+  padding: 20px;
+}
+.popup__logout:hover {
+  background-color: var(--twitter-hover);
+  cursor: pointer;
+}
+.bottom__info__popup {
+  margin-left: 20px;
+}
+.end__popup {
+  margin-left: 30px;
+}

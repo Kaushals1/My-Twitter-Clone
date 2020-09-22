@@ -1,0 +1,86 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100vh;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+.sidebar__main {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.sidebar__btn {
+  border: none !important;
+  border-radius: 30px !important;
+  background-color: var(--twitter-color) !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  height: 50px !important;
+  width: 90%;
+}
+.sidebar__bottom {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex: 1;
+}
+.bottom__info {
+  margin-left: 20px;
+}
+.first {
+  font-weight: 600;
+}
+.second {
+  color: lightgray;
+}
+.sidebar__bottom:hover {
+  background-color: var(--twitter-hover);
+  transition: color 100ms ease-in-out;
+  border-radius: 30px;
+}
+.end {
+  margin-left: 50px;
+}
+.flexend {
+  display: flex !important;
+
+  margin-top: 30px;
+}
+.re {
+  border-radius: 50%;
+  background-color: var(--twitter-color);
+  width: fit-content;
+  display: none;
+}
+.re > .MuiSvgIcon-root {
+  padding: 10px;
+  font-size: 55px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .bottom__info,
+  .end {
+    display: none;
+  }
+  .sidebar__btn {
+    display: none !important;
+  }
+  .re {
+    display: block;
+  }
+  .bottom {
+    margin-left: auto !important;
+  }
+  .sidebar__main {
+    align-items: center;
+    padding: 0 5px;
+  }
+}
