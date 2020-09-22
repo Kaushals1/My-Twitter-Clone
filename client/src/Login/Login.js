@@ -28,7 +28,7 @@ function Login() {
     globalState.dispatch({ type: "UPDATE_BDROP", payload: true });
 
     axios
-      .post("http://localhost:5000/users/login", form)
+      .post("/users/login", form)
       .then((data) => {
         let decoded = jwt_decode(data.data.token);
         setAuthToken(data.data.token);

@@ -30,7 +30,7 @@ function Post({ displayName, username, verified, text, image, avatar }) {
   const globalState = useContext(GlobalState);
 
   useEffect(() => {
-    Axios.get("http://localhost:5000/users/tweets").then((response) => {
+    Axios.get("/users/tweets").then((response) => {
       setTimeout(() => {
         setArray(response.data);
       }, 100);

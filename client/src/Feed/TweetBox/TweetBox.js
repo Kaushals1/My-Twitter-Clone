@@ -26,7 +26,7 @@ function TweetBox() {
   };
   const checking = (e) => {
     axios
-      .post("http://localhost:5000/users/post", tweet)
+      .post("/users/post", tweet)
       .then((data) => {
         globalState.dispatch({
           type: "UPDATE_T",

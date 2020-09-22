@@ -9,14 +9,7 @@ function Landing() {
     return <Redirect to="/dashboard" />;
   } else {
     return (
-      // <div>
-      //   <Link to="/login" exact={"true"} className="login__register">
-      //     login
-      //   </Link>
-      //   <Link to="/register" exact={"true"} className="login__register">
-      //     New to Twitter? Create an account!
-      //   </Link>
-      // </div>
+     
       <section className="landing">
         <div className="dark-overlay">
           <div className="landing-inner">

@@ -31,7 +31,7 @@ function Register() {
     globalState.dispatch({ type: "UPDATE_BDROP", payload: true });
 
     axios
-      .post("http://localhost:5000/users/register", form)
+      .post("/users/register", form)
       .then((data) => {
         setErrorMessage("");
         globalState.dispatch({ type: "UPDATE_POPUP", payload: true });
