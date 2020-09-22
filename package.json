@@ -6,10 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "buildd": "cd client && npm run build",
-    "install-client": "cd client && npm install",
-    "heroku-postbuild": "cd client && npm install && npm run build",
-    "client": "cd client && npm start"
+    "client": "npm start --prefix client",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "",
   "license": "ISC",
