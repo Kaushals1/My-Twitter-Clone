@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.62fe28ed.chunk.css",
+    "main.js": "/static/js/main.71f019f0.chunk.js",
+    "main.js.map": "/static/js/main.71f019f0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c8a21426.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c8a21426.js.map",
+    "static/js/2.5afb6547.chunk.js": "/static/js/2.5afb6547.chunk.js",
+    "static/js/2.5afb6547.chunk.js.map": "/static/js/2.5afb6547.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.dd1ebc17a39f3e443881238ebe1a326a.js": "/precache-manifest.dd1ebc17a39f3e443881238ebe1a326a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.62fe28ed.chunk.css.map": "/static/css/main.62fe28ed.chunk.css.map",
+    "static/js/2.5afb6547.chunk.js.LICENSE.txt": "/static/js/2.5afb6547.chunk.js.LICENSE.txt",
+    "static/media/t.png": "/static/media/t.4a773e98.png",
+    "static/media/Landing.css": "/static/media/twitter-social-media-emoji-3d-render-background-social-media-balloon-symbol_41204-1885.4a70436a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8a21426.js",
+    "static/js/2.5afb6547.chunk.js",
+    "static/css/main.62fe28ed.chunk.css",
+    "static/js/main.71f019f0.chunk.js"
+  ]
+}
