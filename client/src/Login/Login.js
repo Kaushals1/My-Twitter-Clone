@@ -45,6 +45,7 @@ function Login() {
             globalState.dispatch({ type: "UPDATE_BDROP", payload: false });
           }
         } else {
+          globalState.dispatch({ type: "UPDATE_BDROP", payload: false });
           setErrorMessage("Invalid Credentials");
         }
       });
